@@ -7,16 +7,17 @@ export default function Portfolio() {
         <div className="col-4">
           <div className="card-img-top">
             <div className="card-body">
-              <p className="img_1">
+              
                 <img
                   className="img"
-                  src="../assets/Screenshot (10).png"
+                  src={require('../../assets/Screenshot (10).png' )}
                   alt=""
-                />
-                <a href="https://duretitilmo.github.io/Challenge03/"> </a>
+                  />
+                <p className="img_1">  <a href="https://duretitilmo.github.io/Challenge03/">
+               Password Generator </a> 
                 <a href="https://github.com/DuretiTilmo/Challenge03">
-                  Password Generator
-                </a>
+                  <i class='fa fa-github'></i>
+             </a>   
               </p>
             </div>
           </div>
@@ -24,16 +25,19 @@ export default function Portfolio() {
         <div className="col-4">
           <div className="card-img-top">
           <div className="card-body">
-             <p className="img_2">
+             
               <img
               className="img"
-              src="../assets/Screenshot 2023-04-06 151646.png"
+              src={require('../../assets/Screenshot 2023-04-06 151646.png')}
               alt=""
             />
-           
-              <a href="https://duretitilmo.github.io/Module-5-Challenge/"> </a>
+              <p className="img_1">
+                <a href="https://duretitilmo.github.io/Module-5-Challenge/"> 
+                  Work Day Scheduler
+              </a>
               <a href="https://github.com/DuretiTilmo/Module-5-Challenge">
-                Work Day Scheduler
+              <i class='fa fa-github'></i>
+              
               </a>
             </p>
           </div>
@@ -42,16 +46,17 @@ export default function Portfolio() {
         <div className="col-4">
           <div className="card-img-top">
           <div className="card-body">
-            <p className="img_3">
+          
               <img
               className="img"
-              src="../assets/Screenshot 2023-04-06 152044.png"
+              src={require('../../assets/Screenshot 2023-04-06 152044.png')}
               alt=""
             />
-            
-              <a href="https://duretitilmo.github.io/06-Server-Side-APIs/"> </a>
+              <p className="img_1">
+              <a href="https://duretitilmo.github.io/06-Server-Side-APIs/">    
+                 Weather Dashboard</a>
               <a href="https://github.com/DuretiTilmo/06-Server-Side-APIs">
-                Weather Dashboard
+              <i class='fa fa-github'></i>
               </a>
             </p>
           </div>
@@ -62,16 +67,17 @@ export default function Portfolio() {
       <div className="col-4">
       <div className="card-img-top">
       <div className="card-body">
-         <p className="img_4">
+        
         <img
           className="img"
-          src={`https://www.pexels.com/photo/white-and-grey-kitten-on-brown-and-black-leopard-print-textile-45201/`}
+          src={require('../../assets/worldwidenews.png')}
           alt=""
         />
-       
-          <a href="https://hong-f.github.io/worldwidenews/"> </a>
+        <p className="img_1">
+          <a href="https://hong-f.github.io/worldwidenews/">  Worldwide News </a>
           <a href="https://github.com/DuretiTilmo/worldwidenews">
-            Worldwide News
+          
+            <i class='fa fa-github'></i>
           </a>
         </p>
       </div>
@@ -81,15 +87,16 @@ export default function Portfolio() {
      <div className="col-4">
       <div className="card-img-top">
       <div className="card-body">
-        <p className="img_5">
+       
         <img
           className="img"
-          src="/assets/Screenshot_20230125_125135.png"
+          src={require('../../assets/Screenshot_20230125_125135.png')}
           alt=""
         />
-        
+         <p className="img_1">
           <a href="https://github.com/DuretiTilmo/Team-Profile-Generator">
             Team Profile Generator
+            <i class='fa fa-github'></i>
           </a>
         </p>
       </div>
@@ -99,14 +106,15 @@ export default function Portfolio() {
       <div className="col-4">
       <div className="card-img-top">
       <div className="card-body">
-      <p className="img_6">
         <img
           className="img"
-          src="/assets/Screenshot_20230131_111433.png"
+          src={require('../../assets/Screenshot_20230131_111433.png')}
           alt=""
-        />
-       
-          <a href="https://github.com/DuretiTilmo/Note-Taker">Note Taker</a>
+        />    
+          <p className="img_1">
+          <a href="https://github.com/DuretiTilmo/Note-Taker">Note Taker
+          <i class='fa fa-github'></i> 
+          </a>
         </p>
       </div>
       </div>
