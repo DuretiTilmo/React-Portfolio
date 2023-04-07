@@ -1,9 +1,13 @@
 import React from 'react';
-
+const styles = {
+    sectionStyles: {
+    //   background: 'orange',
+    },
+  };
 export default function About(){
     return (
-
-<div>
+<section style={styles.sectionStyles} className="container"> 
+<div className="about">
 <h2> About Me</h2>
 {/* <img src="">  */}
 <p>
@@ -11,7 +15,7 @@ I am a boot camp graduate with Full Stack Web Development. As a young woman new 
 
 </p>
 </div> 
-
+</section>
 )};
 
 

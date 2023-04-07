@@ -3,7 +3,7 @@ import React from 'react';
 export default function Contact(){
     return (
 
- <div>
+ <div className="container">
       <form className="contact">
       <label>Name:</label>
       <input

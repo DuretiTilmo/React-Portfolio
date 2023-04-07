@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function Resume(){
     return (
-        <section> 
+        <section className="container"> 
             <h2> Resume</h2>
    <ul>
      <p> Download my <a href="# "> resume</a> </p>

@@ -2,8 +2,8 @@ import React from 'react';
 
 function Navigation({ currentPage, handlePageChange}){
     return (
-        <section>
-                    <h1>Dureti Kadir</h1>
+        <section className="container">
+                    <h1 className="myName">Dureti Kadir</h1>
 
         <nav>
         <ul className="nav nav-tabs">
