@@ -3,8 +3,6 @@ import React from 'react';
 function Navigation({ currentPage, handlePageChange}){
     return (
         <section className="container">
-                    <h1 className="myName">Dureti Kadir</h1>
-
         <nav>
         <ul className="nav nav-tabs">
       <li className="nav-item">

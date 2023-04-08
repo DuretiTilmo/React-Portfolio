@@ -5,7 +5,7 @@ export default function Resume(){
         <section className="container"> 
             <h2> Resume</h2>
    <ul>
-     <p> Download my <a href="# "> resume</a> </p>
+     <p> Download my <a href="my-app/src/components/pages/Resume.js" download > resume</a> </p>
 
     <h4> Front-end Proficiencies</h4>
 

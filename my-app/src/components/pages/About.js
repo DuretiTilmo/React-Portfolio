@@ -1,7 +1,11 @@
 import React from 'react';
 const styles = {
     sectionStyles: {
-    //   background: 'orange',
+      width: '950px',
+      position: 'fixed',
+      top: '20%',
+      left: '8%',
+  
     },
   };
 export default function About(){

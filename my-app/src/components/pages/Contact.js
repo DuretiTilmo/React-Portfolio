@@ -35,6 +35,7 @@ export default function Contact(){
           name="name"
           type="text"
           placeholder="Name"
+          required
         />
           <label>Email Adress:</label>
         <input
@@ -43,6 +44,7 @@ export default function Contact(){
           type="email"
           onChange={handleInputChange}
           placeholder="Email"
+          required        
         />
           <label>Message:</label>
         <textarea 
@@ -51,7 +53,7 @@ export default function Contact(){
         cols="50">
 
         </textarea>
-         <button type="button" onClick={handleFormSubmit}>
+         <button type="button" className="btn btn-primary" onClick={handleFormSubmit}>
           Submit
          </button> 
     </form> 
