@@ -1,14 +1,23 @@
 import React from 'react';
 
+const styles = {
+    footerStyle: {
+      fontSize: '35px',
+      paddingLeft: '60px',
+      float: 'left',
+      color: 'grey',
+    },
+};
 export default function Footer(){
     return (
-   < footer  className="w-100 mt-auto bg-secondary p-4"> 
+   < footer  className="w-100 mt-auto p-4"> 
         <div className="footer">
-            <a href="https://github.com/DuretiTilmo">Github  <i class='fa fa-github'></i>
+            <a href="https://github.com/DuretiTilmo">
+            <i style={styles.footerStyle} className='fa fa-github'></i>
 
             </a>
-            <a href="https://www.linkedin.com/in/dureti-kadir-4bb17724b/">Linkedin  <i class='fa fa-linkedn'></i>
-
+            <a href="https://www.linkedin.com/in/dureti-kadir-4bb17724b/">  <i class='fa fa-linkedn'></i>
+            <i style={styles.footerStyle} className="fa fa-linkedin"></i>
             </a>
         </div>
         

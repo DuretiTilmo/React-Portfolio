@@ -20,7 +20,7 @@ export default function Contact(){
     e.preventDefault();
 
     if (!validateEmail(email)) {
-      setErrorMessage('Email is invalid');
+      setErrorMessage('Invalid Email Address! Please try again');
       return;
     }
   };

@@ -125,3 +125,15 @@
 /* .card-body:hover .overlay {
   opacity: 1;
 } */
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  padding: 30px;
+}
+/* .footer a {
+  padding: 20px;
+} */
