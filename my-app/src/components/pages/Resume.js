@@ -1,11 +1,17 @@
 import React from 'react';
+const styles = {
+  resumeStyle: {
+   paddingBottom: '80px',
+   margin: '40px',
 
+  },
+};
 export default function Resume(){
     return (
-        <section className="container"> 
+        <section style={styles.resumeStyle} className="container"> 
             <h2> Resume</h2>
    <ul>
-     <p> Download my <a href="my-app/src/components/pages/Resume.js" download > resume</a> </p>
+     <p> Download my <a href="resume.pdf" download > resume</a> </p>
 
     <h4> Front-end Proficiencies</h4>
 

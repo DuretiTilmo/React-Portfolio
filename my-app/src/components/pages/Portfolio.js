@@ -2,6 +2,7 @@ import React from "react";
 
 export default function Portfolio() {
   return (
+    <section className="projects"> 
     <div className="container">
       <div className="row">
         <div className="col-4">
@@ -124,6 +125,7 @@ export default function Portfolio() {
       </div>
       </div>
     </div>
+    </section>
   );
 }
 

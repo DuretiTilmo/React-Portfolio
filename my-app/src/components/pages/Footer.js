@@ -5,7 +5,7 @@ const styles = {
       fontSize: '35px',
       paddingLeft: '60px',
       float: 'left',
-      color: 'grey',
+      color: 'beige',
     },
 };
 export default function Footer(){

@@ -50,9 +50,11 @@ export default function Contact(){
         <textarea 
         name="message" 
         rows="4" 
-        cols="50">
+        cols="50"
+        required
+        >
 
-        </textarea>
+        </textarea >
          <button type="button" className="btn btn-primary" onClick={handleFormSubmit}>
           Submit
          </button> 
