@@ -12,9 +12,9 @@ export default function Portfolio() {
                 
             
                 <img
-                  className="img"
+                  className="img-fluid"
                   src={require('../../assets/Screenshot (10).png' )}
-                  alt=""
+                  alt="password generator app"
                   />  <i class='fa fa-github'></i> </a> 
                 <p className="img_1">  <a href="https://duretitilmo.github.io/Challenge03/">
                Password Generator </a> 
@@ -29,9 +29,9 @@ export default function Portfolio() {
                <a href="https://github.com/DuretiTilmo/Module-5-Challenge">
               
               <img
-              className="img"
+              className="img-fluid"
               src={require('../../assets/Screenshot 2023-04-06 151646.png')}
-              alt=""
+              alt="work day scheduler app"
             /> <i class='fa fa-github'></i>
             </a>
               <p className="img_1">
@@ -50,9 +50,9 @@ export default function Portfolio() {
              
            
               <img
-              className="img"
+              className="img-fluid"
               src={require('../../assets/Screenshot 2023-04-06 152044.png')}
-              alt=""
+              alt="weather dashboard app"
             />  <i class='fa fa-github'></i> 
              </a>
               <p className="img_1">
@@ -73,9 +73,9 @@ export default function Portfolio() {
             
       
         <img
-          className="img"
+          className="img-fluid"
           src={require('../../assets/worldwidenews.png')}
-          alt=""
+          alt="news app"
         />   <i class='fa fa-github'></i>
          </a>
         <p className="img_1">
@@ -93,9 +93,9 @@ export default function Portfolio() {
            
       
         <img
-          className="img"
+          className="img-fluid"
           src={require('../../assets/Screenshot_20230125_125135.png')}
-          alt=""
+          alt="team profile generator app"
         />   <i class='fa fa-github'></i>  
         </a>
          <p className="img_1">
@@ -112,9 +112,9 @@ export default function Portfolio() {
        
        
         <img
-          className="img"
+          className="img-fluid"
           src={require('../../assets/Screenshot_20230131_111433.png')}
-          alt=""
+          alt="note taker app"
         />  <i class='fa fa-github'></i>   
         </a> 
           <p className="img_1">
@@ -129,4 +129,3 @@ export default function Portfolio() {
   );
 }
 
-// export default Project;
