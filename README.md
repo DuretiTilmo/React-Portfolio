@@ -15,8 +15,6 @@ This is a responsive portfolio which is built using React. It consists of sectio
 ## Links
 
 ## Screenshots
-![Alt text](my-app/src/assets/Screenshot%202023-04-09%20174227.png)
---------------
 
 ![Alt text](my-app/src/assets/Screenshot%202023-04-09%20174121.png)
 --------------
@@ -25,7 +23,6 @@ This is a responsive portfolio which is built using React. It consists of sectio
 -------------
 
 ![Alt text](my-app/src/assets/Screenshot%202023-04-09%20174157.png)
-------------
     ​
 ## Test 
 
