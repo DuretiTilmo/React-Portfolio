@@ -8,7 +8,6 @@ export default function Contact(){
   const [input, setInput] = useState('');
 
   const [errorMessage, setErrorMessage] = useState('');
-  const [nameError, setNameError] = useState(false);
   const [emailError, setEmailError] = useState(false);
   const [inputError, setInputError] = useState(false);
 
@@ -28,28 +27,26 @@ export default function Contact(){
   const handleFormSubmit = (e) => {
     e.preventDefault();
 
-    if (!validateEmail(email) || email) {
+    if (!validateEmail(email)) {
       setEmailError(true);
-      // return;
+   return;
     }
-    if (!name) {
-      setNameError(true);
-    }
+
     if (!input) {
       setInputError(true);
+      return;
     }
+
     if (!name && !email && !input) {
       setErrorMessage("Please fill out the form!")
-    }
+      return;
+    }   
   };
-
     return (
 
  <div className="container">
       <form className="contact">
       <label>Name:</label>
-      {nameError && ( <span className="span">Please enter your name! </span>)}
-
       <input
           name="name"
           type="text"

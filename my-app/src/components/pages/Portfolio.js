@@ -2,130 +2,123 @@ import React from "react";
 
 export default function Portfolio() {
   return (
-    <section className="projects"> 
-    <div className="container">
-      <div className="row">
-        <div className="col-4">
-          <div className="card-img-top">
-            <div className="card-body">
+    <section className="projects">
+      <div className="container">
+        <div className="row">
+          <div className="col-sm-12 col-md-6 col-lg-4">
+            <div className="card-img-top">
+              <div className="card-body">
                 <a href="https://github.com/DuretiTilmo/Challenge03">
-                
-            
-                <img
-                  className="img-fluid"
-                  src={require('../../assets/Screenshot (10).png' )}
-                  alt="password generator app"
-                  />  <i class='fa fa-github'></i> </a> 
-                <p className="img_1">  <a href="https://duretitilmo.github.io/Challenge03/">
-               Password Generator </a> 
-                
-              </p>
+                  <img
+                    className="img-fluid"
+                    src={require("../../assets/Screenshot (10).png")}
+                    alt="password generator app"
+                  />
+                  <i class="fa fa-github"></i>
+                </a>
+                <p className="img_1">
+                  
+                  <a href="https://duretitilmo.github.io/Challenge03/">
+                    Password Generator
+                  </a>
+                </p>
+              </div>
+            </div>
+          </div>
+          <div className="col-sm-12 col-md-6 col-lg-4">
+            <div className="card-img-top">
+              <div className="card-body">
+                <a href="https://github.com/DuretiTilmo/Module-5-Challenge">
+                  <img
+                    className="img-fluid"
+                    src={require("../../assets/Screenshot 2023-04-06 151646.png")}
+                    alt="work day scheduler app"
+                  />
+                  <i class="fa fa-github"></i>
+                </a>
+                <p className="img_1">
+                  <a href="https://duretitilmo.github.io/Module-5-Challenge/">
+                    Work Day Scheduler
+                  </a>
+                </p>
+              </div>
+            </div>
+          </div>
+          <div className="col-sm-12 col-md-6 col-lg-4">
+            <div className="card-img-top">
+              <div className="card-body">
+                <a href="https://github.com/DuretiTilmo/06-Server-Side-APIs">
+                  <img
+                    className="img-fluid"
+                    src={require("../../assets/Screenshot 2023-04-06 152044.png")}
+                    alt="weather dashboard app"
+                  />
+                  <i class="fa fa-github"></i>
+                </a>
+                <p className="img_1">
+                  <a href="https://duretitilmo.github.io/06-Server-Side-APIs/">
+                    Weather Dashboard
+                  </a>
+                </p>
+              </div>
             </div>
           </div>
         </div>
-        <div className="col-4">
-          <div className="card-img-top">
-          <div className="card-body">
-               <a href="https://github.com/DuretiTilmo/Module-5-Challenge">
-              
-              <img
-              className="img-fluid"
-              src={require('../../assets/Screenshot 2023-04-06 151646.png')}
-              alt="work day scheduler app"
-            /> <i class='fa fa-github'></i>
-            </a>
-              <p className="img_1">
-                <a href="https://duretitilmo.github.io/Module-5-Challenge/"> 
-                  Work Day Scheduler
-              </a>
-            
-            </p>
+        <div className="row">
+          <div className="col-sm-12 col-md-6 col-lg-4">
+            <div className="card-img-top">
+              <div className="card-body">
+                <a href="https://github.com/DuretiTilmo/worldwidenews">
+                  <img
+                    className="img-fluid"
+                    src={require("../../assets/worldwidenews.png")}
+                    alt="news app"
+                  />
+                  <i class="fa fa-github"></i>
+                </a>
+                <p className="img_1">
+                  <a href="https://hong-f.github.io/worldwidenews/">
+                    
+                    Worldwide News
+                  </a>
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div className="col-sm-12 col-md-6 col-lg-4">
+            <div className="card-img-top">
+              <div className="card-body">
+                <a href="https://github.com/DuretiTilmo/Team-Profile-Generator">
+                  <img
+                    className="img-fluid"
+                    src={require("../../assets/Screenshot_20230125_125135.png")}
+                    alt="team profile generator app"
+                  />
+                  <i class="fa fa-github"></i>
+                </a>
+                <p className="img_1">Team Profile Generator</p>
+              </div>
+            </div>
+          </div>
+
+          <div className="col-sm-12 col-md-6 col-lg-4">
+            <div className="card-img-top">
+              <div className="card-body">
+                <a href="https://github.com/DuretiTilmo/Note-Taker">
+                  <img
+                    className="img-fluid"
+                    src={require("../../assets/Screenshot_20230131_111433.png")}
+                    alt="note taker app"
+                  />
+                  <i class="fa fa-github"></i>
+                </a>
+                <p className="img_1">Note Taker</p>
+              </div>
+            </div>
           </div>
         </div>
-        </div>
-        <div className="col-4">
-          <div className="card-img-top">
-          <div className="card-body">
-           <a href="https://github.com/DuretiTilmo/06-Server-Side-APIs">
-             
-           
-              <img
-              className="img-fluid"
-              src={require('../../assets/Screenshot 2023-04-06 152044.png')}
-              alt="weather dashboard app"
-            />  <i class='fa fa-github'></i> 
-             </a>
-              <p className="img_1">
-              <a href="https://duretitilmo.github.io/06-Server-Side-APIs/">    
-                 Weather Dashboard</a>
-             
-            </p>
-          </div>
-        </div>
       </div>
-      </div>
-      <div className="row">
-      <div className="col-4">
-      <div className="card-img-top">
-      <div className="card-body">
-           <a href="https://github.com/DuretiTilmo/worldwidenews">
-          
-            
-      
-        <img
-          className="img-fluid"
-          src={require('../../assets/worldwidenews.png')}
-          alt="news app"
-        />   <i class='fa fa-github'></i>
-         </a>
-        <p className="img_1">
-          <a href="https://hong-f.github.io/worldwidenews/">  Worldwide News </a>
-       
-        </p>
-      </div>
-      </div>
-     </div>
-
-     <div className="col-4">
-      <div className="card-img-top">
-      <div className="card-body">
-          <a href="https://github.com/DuretiTilmo/Team-Profile-Generator">
-           
-      
-        <img
-          className="img-fluid"
-          src={require('../../assets/Screenshot_20230125_125135.png')}
-          alt="team profile generator app"
-        />   <i class='fa fa-github'></i>  
-        </a>
-         <p className="img_1">
-        Team Profile Generator   
-        </p>
-      </div>
-      </div>
-      </div>
-
-      <div className="col-4">
-      <div className="card-img-top">
-      <div className="card-body">
-           <a href="https://github.com/DuretiTilmo/Note-Taker">
-       
-       
-        <img
-          className="img-fluid"
-          src={require('../../assets/Screenshot_20230131_111433.png')}
-          alt="note taker app"
-        />  <i class='fa fa-github'></i>   
-        </a> 
-          <p className="img_1">
-            Note Taker
-        </p>
-      </div>
-      </div>
-      </div>
-      </div>
-    </div>
     </section>
   );
 }
-

@@ -1,34 +1,45 @@
 /* Extra small devices (phones, 600px and down) */
 @media screen and (max-width: 600px) {
-  .container .about {
-   flex-direction: column;
-   font-size: 15px;
-   /* padding-bottom: 30px; */
-   display: inline-flex;
-   /* max-width: 100%; */
-   /* max-height: 100%; */
- }
+  * {
+    font-size: 16px;
+  }
+  .nav li {
+    font-size: 14px;
+  }
+  .contact input{
+    font-size: 14px;
+   }
 }
+
 * {
-  background-color:  #2D3F62;
-  font-family:Cambria; 
+  background-color: #2d3f62;
+  font-family: Cambria;
   padding: 0;
   margin: 0;
   max-width: 100%;
   font-size: 19px;
-  color: #F3F0E2;
+  color: #f3f0e2;
   max-height: 100%;
 }
 
- h1 {
+h1 {
   margin: 80px;
   padding: 18px;
-  background-color: #F3F0E2;
-  color: #2D3F62 ;
- }
+  background-color: #f3f0e2;
+  color: #2d3f62;
+}
+
+.nav li a {
+  color: #f3f0e2;
+}
+.profilePic {
+  border-radius: 50%;
+  width: 130px;
+  height: 150px;
+}
 
 .contact {
-  margin: 50px, 50px, 0, 50px ;
+  margin: 50px, 50px, 0, 50px;
 }
 
 .contact input {
@@ -39,7 +50,7 @@
   background-color: white;
   padding: 10px;
   color: black;
- }
+}
 
 .contact textarea {
   display: block;
@@ -48,40 +59,32 @@
   width: 50%;
   background-color: white;
   padding: 10px;
+  color: black;
+
 }
-
-
 
 .card-body .img-fluid {
   opacity: 1;
   display: block;
-  /* width: 100%;
-  height: auto; */
   height: 250px;
   width: 400px;
-  transition: .5s ease;
+  transition: 0.5s ease;
   backface-visibility: hidden;
   position: relative;
   border-radius: 5%;
   margin: 25px;
+  flex: 0 0 400px;
 }
 
 .card-body .img_1 {
-  /* background: rgba(29, 106, 154, 0.72); */
-  /* color:black; */
-  /* visibility: hidden; */
-  transition: .5s ease;
+  transition: 0.5s ease;
   opacity: 0;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
-  /* text-align: center; */
-  margin-left: 200px ;
-  /* position: ; */
-
+  margin-left: 200px;
 }
 
 .card-body:hover .img_1 {
-  /* visibility: visible; */
   opacity: 1;
 }
 .card-body:hover .img-fluid {
@@ -90,11 +93,10 @@
 
 .fa {
   font-size: 40px;
-  float:right;
+  float: right;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
 }
-
 
 .footer {
   position: fixed;
@@ -105,22 +107,7 @@
   padding: 30px;
 }
 
-.profilePic {
-  border-radius: 50%;
-  width: 130px; 
-  height: 150px; 
-}
-
 .span {
   font-size: 15px;
   color: red;
 }
-
-
-
-/* @media screen and (max-width: 768px) {
-  main,
-  nav {
-    flex-direction: column;
-  }
-} */

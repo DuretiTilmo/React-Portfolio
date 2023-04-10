@@ -13,7 +13,7 @@ export default function Resume(){
    <ul>
      <p> Download my <a href="resume.pdf" download > resume</a> </p>
 
-    <h4> Front-end Proficiencies</h4>
+    <h5> Front-end Proficiencies</h5>
 
       <li className="nav-item">HTML</li>
       <li className="nav-item">CSS</li>
@@ -22,7 +22,7 @@ export default function Resume(){
       <li className="nav-item">Bootstrap</li>
       <li className="nav-item">React</li>
 
-      <h4> Back-end Proficiencies</h4>
+      <h5> Back-end Proficiencies</h5>
 
       <li className="nav-item">APIs</li>
       <li className="nav-item">Node</li>
