@@ -14,6 +14,8 @@ This is a responsive portfolio which is built using React. It consists of sectio
 
 ## Links
 
+Deployed URL =>  https://duretitilmo.github.io/React-Portfolio/
+
 ## Screenshots
 
 ![Alt text](src/assets/Screenshot%202023-04-09%20174121.png)
