@@ -11,7 +11,7 @@ export default function Project() {
                 <a href="https://github.com/DuretiTilmo/Challenge03">
                   <img
                     className="img-fluid"
-                    src={require("../assets/Screenshot (10).png")}
+                    src={require("../../assets/Projects/Screenshot (10).png")}
                     alt="password generator app"
                   />
                   <i className="fa fa-github"></i>
@@ -31,7 +31,7 @@ export default function Project() {
                 <a href="https://github.com/DuretiTilmo/Module-5-Challenge">
                   <img
                     className="img-fluid"
-                    src={require("../assets/Screenshot 2023-04-06 151646.png")}
+                    src={require("../../assets/Projects/Screenshot 2023-04-06 151646.png")}
                     alt="work day scheduler app"
                   />
                   <i className="fa fa-github"></i>
@@ -50,7 +50,7 @@ export default function Project() {
                 <a href="https://github.com/DuretiTilmo/06-Server-Side-APIs">
                   <img
                     className="img-fluid"
-                    src={require("../assets/Screenshot 2023-04-06 152044.png")}
+                    src={require("../../assets/Projects/Screenshot 2023-04-06 152044.png")}
                     alt="weather dashboard app"
                   />
                   <i className="fa fa-github"></i>
@@ -71,7 +71,7 @@ export default function Project() {
                 <a href="https://github.com/DuretiTilmo/worldwidenews">
                   <img
                     className="img-fluid"
-                    src={require("../assets/worldwidenews.png")}
+                    src={require("../../assets/Projects/worldwidenews.png")}
                     alt="news app"
                   />
                   <i className="fa fa-github"></i>
@@ -89,15 +89,19 @@ export default function Project() {
           <div className="col-sm-12 col-md-6 col-lg-4">
             <div className="card-img-top">
               <div className="card-body">
-                <a href="https://github.com/DuretiTilmo/Team-Profile-Generator">
+                <a href="https://github.com/DuretiTilmo/-PWA-Text-Editor">
                   <img
                     className="img-fluid"
-                    src={require("../assets/Screenshot_20230125_125135.png")}
-                    alt="team profile generator app"
+                    src={require("../../assets/Projects/Screenshot 2023-04-13 134201.png")}
+                    alt="note taker app"
                   />
                   <i className="fa fa-github"></i>
                 </a>
-                <p className="img_1">Team Profile Generator</p>
+                <p className="img_1">
+                <a href="https://serene-wave-48978.herokuapp.com/"> 
+                Just Another Text Editor
+                </a> 
+                </p>
               </div>
             </div>
           </div>
@@ -105,15 +109,20 @@ export default function Project() {
           <div className="col-sm-12 col-md-6 col-lg-4">
             <div className="card-img-top">
               <div className="card-body">
-                <a href="https://github.com/DuretiTilmo/Note-Taker">
+                <a href="https://github.com/DuretiTilmo/Challenge04">
                   <img
                     className="img-fluid"
-                    src={require("../assets/Screenshot_20230131_111433.png")}
-                    alt="note taker app"
+                    src={require("../../assets/Projects/Screenshot 2023-04-13 134651.png")}
+                    alt="code quiz app"
                   />
                   <i className="fa fa-github"></i>
                 </a>
-                <p className="img_1">Note Taker</p>
+                <p className="img_1">
+
+                <a href="https://duretitilmo.github.io/Challenge04/">
+                Code Quiz
+                </a>
+                </p>
               </div>
             </div>
           </div>

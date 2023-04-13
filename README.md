@@ -18,13 +18,13 @@ Deployed URL =>  https://duretitilmo.github.io/React-Portfolio/
 
 ## Screenshots
 
-![Alt text](src/assets/Screenshot%202023-04-09%20174121.png)
+![Alt text](src/assets/demo/Screenshot%202023-04-09%20174121.png)
 --------------
 
-![Alt text](src/assets/Screenshot%202023-04-09%20174248.png)
+![Alt text](src/assets/demo/Screenshot%202023-04-09%20174248.png)
 -------------
 
-![Alt text](src/assets/Screenshot%202023-04-09%20174157.png)
+![Alt text](src/assets/demo/Screenshot%202023-04-09%20174157.png)
     ​
 ## Test 
    npm run start

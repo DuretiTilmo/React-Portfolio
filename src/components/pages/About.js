@@ -7,7 +7,7 @@ export default function About(){
 <h2> About Me</h2>
 <div className="row"> 
 <div className="col-lg-3 col-md-6 col-sm-9">
-<img src={require("../../assets/IMG-0196.jpg")} alt="profile" className="profilePic"/> 
+<img src={require("../../assets/About/IMG-0196.jpg")} alt="profile" className="profilePic"/> 
 </div>
 <div className="col-lg-9 col-md-6 col-sm-9"> 
 <p>

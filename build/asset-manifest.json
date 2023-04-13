@@ -1,20 +1,20 @@
 {
   "files": {
     "main.css": "/React-Portfolio/static/css/main.a26335cb.css",
-    "main.js": "/React-Portfolio/static/js/main.112a5bb6.js",
+    "main.js": "/React-Portfolio/static/js/main.6cd5e7f4.js",
     "static/media/worldwidenews.png": "/React-Portfolio/static/media/worldwidenews.c4d4ab1b1ca0ebdb6bc1.png",
     "static/media/IMG-0196.jpg": "/React-Portfolio/static/media/IMG-0196.0b7667af91916f0b9ba8.jpg",
     "static/media/Screenshot 2023-04-06 152044.png": "/React-Portfolio/static/media/Screenshot 2023-04-06 152044.ff7e6aba936d87d281ce.png",
     "static/media/Screenshot 2023-04-06 151646.png": "/React-Portfolio/static/media/Screenshot 2023-04-06 151646.04b71fded9478002ef79.png",
+    "static/media/Screenshot 2023-04-13 134201.png": "/React-Portfolio/static/media/Screenshot 2023-04-13 134201.a2b4456c70e75df020cc.png",
     "static/media/Screenshot (10).png": "/React-Portfolio/static/media/Screenshot (10).770d117bd1e3b5b08cd7.png",
-    "static/media/Screenshot_20230131_111433.png": "/React-Portfolio/static/media/Screenshot_20230131_111433.1e1deb8e2c3644049d5d.png",
-    "static/media/Screenshot_20230125_125135.png": "/React-Portfolio/static/media/Screenshot_20230125_125135.022aa53a6e208aa6e130.png",
+    "static/media/Screenshot 2023-04-13 134651.png": "/React-Portfolio/static/media/Screenshot 2023-04-13 134651.66a6d904db4ee32581a6.png",
     "index.html": "/React-Portfolio/index.html",
     "main.a26335cb.css.map": "/React-Portfolio/static/css/main.a26335cb.css.map",
-    "main.112a5bb6.js.map": "/React-Portfolio/static/js/main.112a5bb6.js.map"
+    "main.6cd5e7f4.js.map": "/React-Portfolio/static/js/main.6cd5e7f4.js.map"
   },
   "entrypoints": [
     "static/css/main.a26335cb.css",
-    "static/js/main.112a5bb6.js"
+    "static/js/main.6cd5e7f4.js"
   ]
 }
