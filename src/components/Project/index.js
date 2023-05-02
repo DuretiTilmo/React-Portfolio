@@ -109,18 +109,18 @@ export default function Project() {
           <div className="col-sm-12 col-md-6 col-lg-4">
             <div className="card-img-top">
               <div className="card-body">
-                <a href="https://github.com/DuretiTilmo/Challenge04">
+                <a href="https://github.com/harryhamlin/shophop">
                   <img
                     className="img-fluid"
-                    src={require("../../assets/Projects/Screenshot 2023-04-13 134651.png")}
+                    src={require("../../assets/Projects/Screenshot 2023-05-01 234509.png")}
                     alt="code quiz app"
                   />
                   <i className="fa fa-github"></i>
                 </a>
                 <p className="img_1">
 
-                <a href="https://duretitilmo.github.io/Challenge04/">
-                Code Quiz
+                <a href="https://shophop2.herokuapp.com/">
+                 ShopHop
                 </a>
                 </p>
               </div>
